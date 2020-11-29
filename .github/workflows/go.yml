@@ -21,7 +21,7 @@ jobs:
       run: pwd
       
     - name: ls 
-      run: ls -l
+      run: ls -al
     
     - name: Get dependencies
       run: go get -v -t -d ./...
